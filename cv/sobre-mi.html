@@ -8,11 +8,99 @@
     <script src="https://kit.fontawesome.com/21caadb20f.js" crossorigin="anonymous"></script>
     <title>Curriculum Juanjo</title>
     <style>
-      
+
+        
+        .fa-bars{
+            font-size: 60px;
+        }
+
+        #titulo{
+            font-size: 40px;
+            margin-top: 75px;
+            text-wrap: nowrap;
+        }
+
+        span{
+            width: 50px;
+        }
+
+        
+
     </style>
 </head>
 
 <body>
 
+    <div class="container-fluid mt-5">
+        <div class="dropdown position-fixed top-0 end-0">
+            <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="dropdown-menu text-center">
+                <div class="dropdown-header bg-body-secondary">Páginas</div>
+              <a class="dropdown-item" href="./index.html">Home</a>
+              <a class="dropdown-item" href="./contacto.html">Contactos</a>
+              <a class="dropdown-item" href="./experiencia.html">Experiencia</a>
+              <a class="dropdown-item" href="./habilidades.html">Habilidades</a>
+            </div>
+        </div> 
+
+        <div class="w-75 ms-5" >
+            <h1 id="titulo" class="fw-bold mb-4 pb-2 border-bottom border-3">Sobre mí</h1>
+        </div>
+
+
+        <ul class="list-group list-group-numbered w-75 d-flex justify-content-center">
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Trabajo en equipo</div>
+                
+              </div>
+              <span class="badge bg-primary rounded-pill"><i class="fa-solid fa-people-group fa-xl"></i></span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Responsable</div>
+              </div>
+              <span class="badge bg-primary rounded-pill"><i class="fa fa-bullseye fa-xl"></i>
+              </span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Deportista</div>
+              </div>
+              <span class="badge bg-primary rounded-pill"><i class="fa-solid fa-person-biking fa-xl"></i></span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Puntual</div>
+                </div>
+                <span class="badge bg-primary rounded-pill "><i class="fa-solid fa-clock fa-xl"></i></span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Idiomas: ES/CAT/EN</div></div>
+                <span class="badge bg-primary rounded-pill"><i class="fa-solid fa-language fa-xl"></i></span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Resolutivo</div></div>
+                <span class="badge bg-primary rounded-pill"><i class="fa fa-bullseye fa-xl" aria-hidden="true"></i>
+                </span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Liderazgo</div></div>
+                <span class="badge bg-primary rounded-pill"><i class="fa-solid fa-crown fa-xl"></i></span>
+              </li>
+          </ul>
+
+    </div>
+    <footer class="bg-black d-flex justify-content-center align-items-center position-fixed bottom-0 w-100 ">
+        <a class="text-dark m-3 fs-1 rounded-circle bg-body-secondary p-2 hover-bg-primary d-flex" href="mailto:olmedix@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-envelope"></i></a>
+        <a class="text-dark m-3 fs-1 rounded-circle bg-body-secondary p-2 hover-bg-primary d-flex" href="https://github.com/olmedix" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+        <a class="text-dark m-3 fs-1 rounded-circle bg-body-secondary p-2 hover-bg-primary d-flex" href="https://www.instagram.com/olmedix/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+        <a class="text-dark m-3 fs-1 rounded-circle bg-body-secondary p-2 hover-bg-primary d-flex" href="https://www.linkedin.com/in/juan-jose-alba-691459155/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+    </footer>
 </body>
 </html>

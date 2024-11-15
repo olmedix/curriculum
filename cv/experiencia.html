@@ -8,11 +8,75 @@
     <script src="https://kit.fontawesome.com/21caadb20f.js" crossorigin="anonymous"></script>
     <title>Curriculum Juanjo</title>
     <style>
-      
+
+        h1{
+            margin-top: 75px;
+        }
+
+
     </style>
 </head>
 
 <body>
+
+    <div class="container-fluid mt-5">
+
+        <div class="dropdown position-fixed top-0 end-0">
+            <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-bars" style="font-size: 60px;"></i>
+            </button>
+            <div class="dropdown-menu text-center">
+                <div class="dropdown-header bg-body-secondary">Páginas</div>
+              <a class="dropdown-item" href="./index.html">Home</a>
+              <a class="dropdown-item" href="./sobre-mi.html">Sobre mí</a>
+              <a class="dropdown-item" href="./contacto.html">Contacto</a>
+              <a class="dropdown-item" href="./habilidades.html">Habilidades</a>
+            </div>
+        </div> 
+
+        <div class="w-75 ms-5" >
+            <h1 class="fw-bold mb-4 pb-2 border-bottom border-3" style="font-size: 40px;">Experiencia</h1>
+        </div>
+
+        <div id="accordion">
+            <div class="card">
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                        Collapsible Group Item #2
+                    </a>
+                </div>
+                <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum...
+                    </div>
+                 </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                        Collapsible Group Item #3
+                      </a>
+                </div>
+                <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum....
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+        </div>
+    </div>
+
+        <footer class="bg-black d-flex justify-content-center align-items-center position-fixed bottom-0 w-100 ">
+            <a class="text-dark m-3 fs-1 rounded-circle bg-body-secondary p-2 hover-bg-primary d-flex" href="mailto:olmedix@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-envelope"></i></a>
+            <a class="text-dark m-3 fs-1 rounded-circle bg-body-secondary p-2 hover-bg-primary d-flex" href="https://github.com/olmedix" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+            <a class="text-dark m-3 fs-1 rounded-circle bg-body-secondary p-2 hover-bg-primary d-flex" href="https://www.instagram.com/olmedix/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+            <a class="text-dark m-3 fs-1 rounded-circle bg-body-secondary p-2 hover-bg-primary d-flex" href="https://www.linkedin.com/in/juan-jose-alba-691459155/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+        </footer>
 
 </body>
 </html>
